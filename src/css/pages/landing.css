@@ -1,0 +1,23 @@
+.landing__main {
+    background-image: url('../../../assets/restaurant-interior.jpg');
+    background-color: rgba(0, 0,0, 0,5);
+    flex-direction: colum;
+
+    & >header:first-of-type{
+        color: aliceblue;
+    }
+
+    section:has(header){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+        overflow: hidden;
+        border-radius: 15px;
+    }
+
+    footer {
+        align-self: center;
+        margin-block: 20px;
+    }
+}

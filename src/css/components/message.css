@@ -1,0 +1,31 @@
+.message{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    background: rgb(128, 126, 0);
+    color: #000;
+
+    header {
+        display: flex;
+        height: 150px;
+        align-items: center;
+        background-color: antiquewhite;
+
+        figure{
+            width: 50%;
+            height: 100;
+
+        }
+        p{
+            text-align: center;
+            padding: 10px;
+        }
+
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
